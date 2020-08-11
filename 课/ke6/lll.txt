@@ -1,0 +1,8 @@
+  Console.WriteLine("零基础学C#、C#从入门到精通、C#项目开发实战入门");
+            string str = "零基础学C#、C#从入门到精通、C#项目开发实战入门";
+            int q = str.IndexOf('、');
+            int w = str.IndexOf('、',q+1);
+            int r = str.IndexOf("零基础学C#");
+            if(r<q){
+                Console.WriteLine("零基础学C#在书单上第一位");
+            }else if(r>q){}
